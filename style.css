@@ -1,0 +1,100 @@
+html{
+    height: 100%;
+}
+#listheader{
+    display: flex;
+    flex-direction: row;
+    margin :2px;
+    gap: 12%;
+    font-family: nunito;
+    font-size: 24px;
+    list-style: none;
+    justify-content: space-between;
+    color: #DEC5E3;
+    padding:inherit;
+}
+h1{
+    display: flex;
+    font-family: outfit;
+    font-size:100px;
+    color: #A9F8FB;
+}
+h2{
+    font-family: 'outfit';
+    color: indigo;
+}
+h3{
+    font-family: outfit;
+    color:#df9d63;
+}
+#descperso{
+    font-family: 'nunito';
+    color: #2d0350;
+}
+body{
+    height: 100%;
+    background-image: linear-gradient(180deg, #00000000, #000000cc), url(photo-1543413305-ea22e5cc007b.avif);
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                  background-attachment: fixed;
+}
+.photoid{
+    display: flex;
+  border-radius: 50%;
+  width: 237px;
+  height: 237px;
+  object-fit: cover;
+  padding: 9%;
+}
+.card1{
+    display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-self: center;
+  width: 300px;
+  text-align: center;
+  background-color: #caa1d2;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.fa-brands{
+    font-weight: 400;
+    text-decoration: none;
+    padding: 12px;
+    font-size: 40px;
+    color: #81F7E5;
+}
+.listhobbies{
+    font-family: nunito;
+    color:#B6DCFE;
+    list-style: none;
+}
+#parahob{
+    color: #beec7e;
+    font-family: 'Nunito';
+    font-size: 20px;
+}
+#hobby1{
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
+    margin: 45px;
+}
+#ratchetdead{
+    display: flex;
+    size: 20px;
+    height: 250px;
+    border-radius: 20px;
+    padding: 30px;
+    border-left-style: solid;
+    width: fit-content;
+    transition: 0.2s;
+    overflow: hidden;
+    object-fit:cover;
+    overflow-clip-margin: content-box;
+}
+    img:hover{
+        transform: scale(1.1) ;
+        transition: all 300ms ease;
+}
