@@ -37,6 +37,8 @@ h4{
     font-family: 'Outfit';
     color: #0DD3B5;
     font-size: 50px;
+    display: flex;
+    justify-self: center;
 }
 #descperso{
     font-family: 'nunito';
@@ -86,10 +88,20 @@ body{
     color:#0ACFD6;
     list-style: none;
 }
+.listexp{
+    font-family: nunito;
+    color:#B6DCFE;
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    gap:10px;
+}
 #parahob{
     color: #beec7e;
     font-family: 'Nunito';
     font-size: 20px;
+    display: flex;
+    justify-self: center;
 }
 #hobby1{
     flex-direction: column;
