@@ -30,13 +30,18 @@ h3{
     font-family: outfit;
     color:#df9d63;
 }
+h4{
+    font-family: 'Outfit';
+    color: #0DD3B5;
+    font-size: 50px;
+}
 #descperso{
     font-family: 'nunito';
     color: #2d0350;
 }
 body{
     height: 100%;
-    background-image: linear-gradient(180deg, #00000000, #000000cc), url(photo-1543413305-ea22e5cc007b.avif);
+    background-image: linear-gradient(180deg, #000000a1, #000000cc), url(photo-1543413305-ea22e5cc007b.avif);
                   background-position: center;
                   background-repeat: no-repeat;
                   background-size: cover;
@@ -73,6 +78,11 @@ body{
     color:#B6DCFE;
     list-style: none;
 }
+.listprojet{
+    font-family: nunito;
+    color:#0ACFD6;
+    list-style: none;
+}
 #parahob{
     color: #beec7e;
     font-family: 'Nunito';
@@ -90,12 +100,19 @@ body{
     height: 250px;
     border-radius: 20px;
     padding: 30px;
-    border-left-style: solid;
+    border-bottom-style: solid;
     width: fit-content;
     transition: 0.2s;
     overflow: hidden;
     object-fit:cover;
     overflow-clip-margin: content-box;
+}
+#site1{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 15px;
+    justify-content: center;
+    color: #BF91CA;
 }
     img:hover{
         transform: scale(1.1) ;
