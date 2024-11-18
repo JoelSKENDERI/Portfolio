@@ -11,13 +11,16 @@ html{
     list-style: none;
     justify-content: space-between;
     color: #DEC5E3;
-    padding:inherit;
+    padding:15px;
 }
 h1{
     display: flex;
     font-family: outfit;
-    font-size:100px;
+    font-size: 100px;
     color: #A9F8FB;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
 }
 h2{
     font-family: 'outfit';
