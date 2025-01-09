@@ -5,45 +5,64 @@ html{
 #listheader{
     display: flex;
     flex-direction: row;
-    margin :2px;
     gap: 12%;
+    margin: 0px;
     font-family: nunito;
     font-size: 24px;
     list-style: none;
     justify-content: space-between;
-    color: #DEC5E3;
+    color: #FFFCF2;
     padding:15px;
+    position: fixed;
+    position: -webkit-sticky;
+    top:0;
+    z-index: 1000;
+    width: 95%;
+    padding-left: 2%;
+    padding-right:5%;
+    background-color: #403D39;
+    text-decoration: none   ;
+}
+a{
+    color: inherit;
+    text-decoration: none;
 }
 header{
     display: grid;
+    position:-webkit-sticky;
+    position:sticky; 
+    top:0;
 }
 h1{
     display: flex;
     font-family: outfit;
     font-size: 100px;
-    color: #A9F8FB;
+    color: #EB5E28;
     align-items: center;
     justify-content: center;
     padding: 15px;
 }
 h2{
     font-family: 'outfit';
-    color: indigo;
+    color:#EB5E28;
 }
 h3{
     font-family: outfit;
-    color:#df9d63;
+    color:#EB5E28;
+    font-size: 50px;
+    display: flex;
+    justify-self: center;
 }
 h4{
     font-family: 'Outfit';
-    color: #0DD3B5;
+    color: #EB5E28;
     font-size: 50px;
     display: flex;
     justify-self: center;
 }
 #descperso{
     font-family: 'nunito';
-    color: #2d0350;
+    color: #FFFCF2;
 }
 body{
     height: 100%;
@@ -52,6 +71,8 @@ body{
                   background-repeat: no-repeat;
                   background-size: cover;
                   background-attachment: fixed;
+    overflow: visible;
+    
 }
 .photoid{
     display: flex;
@@ -68,7 +89,7 @@ body{
   justify-self: center;
   width: 300px;
   text-align: center;
-  background-color: #caa1d2;
+  background-color: #252422;
   border-radius: 20px;
   margin-bottom: 20px;
 }
@@ -77,28 +98,28 @@ body{
     text-decoration: none;
     padding: 12px;
     font-size: 40px;
-    color: #81F7E5;
+    color: #FFFCF2;
 }
 .listhobbies{
     font-family: nunito;
-    color:#B6DCFE;
+    color:#FFFCF2;
     list-style: none;
 }
 .listprojet{
     font-family: nunito;
-    color:#0ACFD6;
+    color:#FFFCF2;
     list-style: none;
 }
 .listexp{
     font-family: nunito;
-    color:#B6DCFE;
+    color:#FFFCF2;
     list-style: none;
     display: flex;
     flex-wrap: nowrap;
     gap:10px;
 }
 #parahob{
-    color: #beec7e;
+    color: #FFFCF2;
     font-family: 'Nunito';
     font-size: 20px;
     display: flex;
@@ -108,7 +129,6 @@ body{
     flex-direction: column;
     gap: 20px;
     display: flex;
-    margin: 45px;
 }
 #ratchetdead{
     display: flex;
@@ -117,11 +137,12 @@ body{
     border-radius: 20px;
     padding: 30px;
     border-bottom-style: solid;
-    width: fit-content;
+    width: 215px;
     transition: 0.2s;
     overflow: hidden;
-    object-fit:cover;
+    object-fit:fill;
     overflow-clip-margin: content-box;
+    margin-left: 555px;
 }
 #site1{
     display: flex;
@@ -133,4 +154,32 @@ body{
     img:hover{
         transform: scale(1.1) ;
         transition: all 300ms ease;
+}
+li{
+    padding-right: 40px;
+}
+#messagecontact{
+    color: #FFFCF2;
+    font-size: 22px;
+    padding: 40px;
+    margin: 0;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'nunito';
+}
+#contactmail{
+    color: #EB5E28;
+    font-size: 65px;
+    padding: 40px;
+    font-family: 'Outfit';
+    display: flex;
+    justify-self: center;
+    font-weight: 700;
+}
+#flecheup{
+color: #FFFCF2;
+}
+#secretmsg{
+    color: azure;
 }
